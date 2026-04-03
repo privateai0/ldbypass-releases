@@ -1,28 +1,36 @@
 name: Feature Request
-description: Suggest a new feature or improvement
+description: Suggest a new feature or improvement for LDBypass
 title: "[Feature]: "
 labels: ["enhancement"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Please fill out the form below so we can understand your idea.
+
   - type: textarea
     id: description
     attributes:
       label: Feature Description
-      description: What feature would you like?
+      description: A clear and concise description of the feature you'd like to see.
       placeholder: Describe the feature...
     validations:
       required: true
+
   - type: textarea
-    id: usecase
+    id: use-case
     attributes:
       label: Use Case
-      description: What problem would this solve?
-      placeholder: Describe the problem this would solve...
+      description: Describe the problem this feature would solve or the use case it addresses.
+      placeholder: Explain why this feature would be useful...
     validations:
       required: true
+
   - type: textarea
     id: alternatives
     attributes:
       label: Alternatives Considered
-      description: Have you considered any workarounds?
+      description: Have you considered any alternative solutions or workarounds?
+      placeholder: Describe any alternatives you've thought of...
     validations:
       required: false
