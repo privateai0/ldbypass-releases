@@ -2,27 +2,37 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in LDBypass or ldbypass.com, please report it responsibly.
+We take the security of LDBypass and its users seriously. If you discover a security vulnerability, please report it responsibly.
 
 ### How to Report
 
-- **Discord**: Message a moderator on our [Discord server](https://discord.gg/saMaxDk5)
-- **GitHub**: Open a [security advisory](https://github.com/privateai0/ldbypass-releases/security/advisories/new)
+- **Email:** [security@ldbypass.com](mailto:security@ldbypass.com)
+- **Discord:** [https://discord.gg/saMaxDk5](https://discord.gg/saMaxDk5)
+
+Please **do not** open a public GitHub issue for security vulnerabilities.
 
 ### Scope
 
-- The LDBypass macOS application
-- The ldbypass.com website and API
-- The download and update infrastructure
+The following are in scope for security reports:
 
-### Response
+- The LDBypass application (macOS)
+- The [ldbypass.com](https://ldbypass.com) website
 
-- We will acknowledge your report within 48 hours
-- We will provide a fix timeline within 7 days
-- We will credit you in the release notes (unless you prefer anonymity)
+### What to Include
 
-### Out of Scope
+- A clear description of the vulnerability
+- Steps to reproduce the issue
+- The potential impact
+- Any suggested fixes (optional)
 
-- Social engineering attacks
-- Denial of service attacks
-- Issues in third-party dependencies with no impact on LDBypass
+### Response Time
+
+- We will acknowledge your report within **48 hours**.
+- We will provide a detailed response and remediation timeline as soon as possible after triage.
+
+### Guidelines
+
+- Give us reasonable time to address the issue before public disclosure.
+- Act in good faith and avoid accessing or modifying other users' data.
+
+Thank you for helping keep LDBypass and its community safe.
