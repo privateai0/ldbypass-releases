@@ -1,27 +1,21 @@
 # Contributing to LDBypass
 
-LDBypass is a closed-source project. While we do not accept code contributions, there are several ways to help:
+Thank you for your interest in LDBypass! This is a **closed-source** project, so we do not accept code contributions such as pull requests. However, there are several ways you can contribute to the community.
 
 ## Bug Reports
 
-Found a bug? [Open an issue](https://github.com/privateai0/ldbypass-releases/issues/new?template=bug_report.yml) with:
-- Your macOS version and chip (Apple Silicon or Intel)
-- LDBypass version
-- Steps to reproduce the issue
-- Which proctoring software you were using
+Found a bug? Please open a [GitHub Issue](https://github.com/privateai0/ldbypass-releases/issues) using the bug report template. Include as much detail as possible — your macOS version, chip type, LDBypass version, and steps to reproduce the issue.
 
 ## Feature Requests
 
-Have an idea? Start a discussion in [GitHub Discussions](https://github.com/privateai0/ldbypass-releases/discussions) or our [Discord server](https://discord.gg/saMaxDk5).
+Have an idea for a new feature? Start a conversation in [GitHub Discussions](https://github.com/privateai0/ldbypass-releases/discussions). We review all suggestions and prioritize based on community feedback.
 
-## Community
+## Community Contributions
 
-Join our [Discord server](https://discord.gg/saMaxDk5) to:
-- Get real-time help with setup
-- Report issues and discuss features
-- Share feedback and suggestions
-- Connect with other users
+Join our **Discord server** to connect with other users, share feedback, help others troubleshoot, and stay up to date on releases:
 
-## Compatibility Reports
+👉 [https://discord.gg/saMaxDk5](https://discord.gg/saMaxDk5)
 
-Help us keep the compatibility table accurate. If you test LDBypass with a proctoring platform not listed in our README, let us know via Discord or Discussions.
+## Code of Conduct
+
+All participants are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Please be respectful and constructive in all interactions.
