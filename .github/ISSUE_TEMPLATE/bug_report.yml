@@ -1,38 +1,48 @@
 name: Bug Report
-description: Report a bug in LDBypass
+description: Report a bug or issue with LDBypass
 title: "[Bug]: "
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the form below to help us investigate.
+
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: What happened?
+      description: A clear and concise description of the bug.
       placeholder: Describe the bug...
     validations:
       required: true
+
   - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
-      description: How can we reproduce this?
+      description: Step-by-step instructions to reproduce the issue.
       placeholder: |
         1. Open LDBypass
-        2. Press ...
-        3. ...
+        2. Click on '...'
+        3. See error
     validations:
       required: true
+
   - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
-      description: What should have happened?
+      description: What did you expect to happen?
+      placeholder: Describe what should have happened...
     validations:
       required: true
+
   - type: dropdown
-    id: macos
+    id: macos-version
     attributes:
       label: macOS Version
+      description: Which version of macOS are you running?
       options:
         - Sequoia 15
         - Sonoma 14
@@ -40,26 +50,32 @@ body:
         - Monterey 12
     validations:
       required: true
+
   - type: dropdown
     id: chip
     attributes:
       label: Chip
+      description: What chip does your Mac use?
       options:
         - Apple Silicon (M1/M2/M3/M4)
         - Intel
     validations:
       required: true
+
   - type: input
-    id: version
+    id: ldbypass-version
     attributes:
       label: LDBypass Version
-      placeholder: e.g. 1.1.0
+      description: Which version of LDBypass are you using? (e.g., 1.2.0)
+      placeholder: "1.0.0"
     validations:
       required: true
+
   - type: dropdown
-    id: proctor
+    id: proctoring-software
     attributes:
       label: Proctoring Software
+      description: Which proctoring software were you using?
       options:
         - LockDown Browser
         - Proctorio
@@ -67,13 +83,15 @@ body:
         - Honorlock
         - ExamSoft
         - Safe Exam Browser
-        - None / Other
+        - Other
     validations:
       required: true
+
   - type: textarea
-    id: context
+    id: additional-context
     attributes:
       label: Additional Context
-      description: Screenshots, logs, or anything else relevant
+      description: Add any other context, screenshots, or log output about the issue here.
+      placeholder: Any additional information...
     validations:
       required: false
